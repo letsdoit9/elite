@@ -1,0 +1,42 @@
+# Token-Free Automated Stock Screener - Requirements
+# Core Dependencies for Python 3.8+
+
+# Web Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# HTTP Requests
+requests>=2.28.0
+
+# Technical Analysis
+ta>=0.10.2
+
+# Date/Time Handling
+python-dateutil>=2.8.0
+
+# Concurrent Processing
+# concurrent.futures (built-in Python 3.2+)
+
+# File I/O & JSON
+# json (built-in)
+# pathlib (built-in Python 3.4+)
+# base64 (built-in)
+# hashlib (built-in)
+# os (built-in)
+
+# Optional: For enhanced security (production use)
+cryptography>=3.4.8
+
+# Optional: For better error handling
+tenacity>=8.0.0
+
+# Optional: For logging
+loguru>=0.6.0
+
+# Development Dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
